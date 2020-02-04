@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: block;
+}
+
+video{
+    width:100%;
+}
+
+header {
+    background: #025c69;
+    width: 100%;
+    padding: 16px 0;
+}
+.homepage-banner{
+    text-align: center;
+}
+div.homepage-banner img{
+    width: 100%;
+}
+.logo-secion{
+    width: 30%;
+    display: inline-block;
+}
+.logo-secion img{
+    width: 100%;
+}
+nav{
+    float: right;
+    margin-top: 52px;
+}
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 18px;
+}
+nav a:hover {
+    background: #218e9e;
+    border-radius: 46px;
+}
+.active {
+    background: #737373;
+    border: 1px solid #ffffff;
+    color: #fff;
+}
+
+footer{
+    padding: 13px;
+    font-size: 11px;
+    background: #025c69;
+    color: #fff;
+}
+footer p{
+    padding: 13px 0 11px 0;
+    width: 94%;
+    
+}
+
+section.sect-1 {
+    padding: 263px;
+    background-color: #b1b1b1;
+    background-image: url(../images/B2.jpg);
+    background-size: cover;
+}
+
+section.section2 {
+    padding: 50px;
+    background-color: sienna;
+}
+
+section.section2 div {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+section.section2 div img {
+    border-radius: 100%;
+    width: 33%;
+    height: 33%;
+}
+
+section.section2 div a {
+    padding: 15px;
+    font-size: 16px;
+    color: #b0281a;
+    margin-top: 15px;
+}
+
+section.section2 div p{
+    color: aqua
+}
+
+div.about-us-banner {
+    padding: 34px;
+    background-color: #218e9e;
+    background-size: cover;
+}
+
+div.about-us-banner img{
+    padding: 40px 26px 26px 26px;
+    font-size: 42px;
+    border-radius: 100%;
+    width: 200px;
+    height: 174px;
+    line-height: 71px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.about-us-banner p {
+    color: #fbff01;
+    text-align: center;
+}
+
+div.contact-us-banner {
+    padding: 34px;
+    background-color: #218e9e;
+    background-size: cover;
+}
+
+div.contact-us-banner img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homepage-banner {
+    color: #fff;
+    padding: 40px 26px 26px 26px;
+    font-size: 42px;
+    border: 3px solid #4e0a0a;
+    background-color: #3636365e;
+    border-radius: 100%;
+    width: 200px;
+    height: 174px;
+    line-height: 71px;
+    margin: 0 auto;
+    border-top: 12px solid #e60d0d;
+    border-left: 12px solid #a20000;
+    border-bottom: 12px solid #2bd061;
+    border-right: 12px solid #232b26;
+}
